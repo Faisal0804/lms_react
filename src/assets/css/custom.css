@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topFixedBanner{
+    background: url("../images/banner.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  
+
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width:100%;
+    background: rgba(0, 0, 0,0.7);
+   
+}
+.topContent{
+    margin-top: 12rem;
+
+}
+.topTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+}
+.topSubTitle{
+     font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.topSilderBanner img{
+
+  position: relative;
+  width: 100%;
+  height: 500px;
+
+}
+.btn Button{
+    background:#18A1C1;
+    display: inline-block;
+    color: #ffffff;
+
+}
+.about{
+        background:#cfe3f8;
+} 
+
+.aboutContent{
+    margin-top:4rem;
+    padding-bottom: 6rem;
+}
+.AboutName{
+    margin-top:2rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 30px;
+    color:#18A1C1;
+    font-weight: 800;
+    text-align: justify;
+}
+.AboutSubName{
+    margin-top:1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    color:#0d0d0e;
+    font-weight:800;
+    text-align: justify;
+}
+.AboutDescription{
+  
+    color:#191b23;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: justify;
+}
+.aboutLink{
+    color: #181717;
+    padding:10px;
+    display:block;
+    width:200px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background:#18A1C1;
+    text-align: center;
+
+}
+.aboutLink:hover{
+    text-decoration: none;
+    background-color: #fff;
+    display: block;
+    color:#000!important;
+    border: 2px solid rgba(24, 161, 193);
+    opacity: 0.8;
+    border-radius:2px ;
+    cursor: pointer;
+    transition:2s;
+
+}
+.aboutImage{
+    margin-top: 2rem auto;
+    padding: 10px 0px;
+   
+}
+.aboutImage img{
+
+    border-radius:5%;
+    max-height: 500px;
+    width:100%;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgb(24, 161, 193);
+
+}
+.summarySection{
+    margin-top: 5rem;
+
+}
+
+
+.summaryBanner{
+    background: url("../images/banner-2.png");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    
+
+}
+.summaryOverlay{
+    position: absolute;
+    min-height: 400px;
+    width:100%;
+    background: rgba(0, 0, 0,0.7);
+    
+}
+.cardImage{
+    width:3rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.mainCard:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgb(24, 161, 193);
+
+}
+.mainCard{
+    box-shadow: 0 0 4px 0 rgb(24, 161, 193);
+}
+.cardNo{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+.navTitle{
+    font-family: 'Montserreat',sans-serif;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 24px !important;
+    margin-left: 40px;
+  }
+  .navTitleScroll{
+    font-family: 'Montserreat',sans-serif;
+    color:#18A1C1 !important;
+    font-weight: 700;
+    font-size: 24px !important;
+  }
+  .navBackground{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: rgba(00,00,00,0.0) !important;
+  }
+  .navBackgroundScroll{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: #ffffff !important;
+  }
+  .navItem{
+    font-size: 14px;
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 600;
+    color: #ffffff !important ;
+  }
+  .navItemScroll{
+    font-size: 16px;
+    text-decoration: none !important;
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 400;
+    color: #18A1C1 !important;
+  }
+  .navBarMain{
+    margin-right: 50px;
+    margin-left: 25rem;
+  }
+  .serviceCard{
+    margin: 5px 5px 5px 5px;
+    height: 25rem;
+    border-radius: 10%;
+    padding: 0px 0px 60px 0px;
+    background-color:#18A1C1 ;
+    box-shadow: 0 0 4px 0 rgb(24, 161, 193);
+}
+.serviceCard:hover{
+    box-shadow: 0 0 8px 0 rgb(24, 161, 193);
+    cursor: pointer;
+}
+
+
+.serviceMainTitle{
+    color: #18A1C1;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+.serviceImg{
+    width: 10rem;
+    max-height:12rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.serviceImg:hover {
+    cursor: pointer;
+}
+
+.serviceName{
+    margin-top: 1rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.serviceDescription{
+    color: #fff;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+
+}
+.hr{    
+    width:100px;
+    margin:0rem auto 3rem;
+    border-style:inset;
+    border-width: 2px;
+    border-color:#000a0a;
+    
+
+}
+
+
+.studentSection{
+    width:100%;
+    margin:20px;
+ 
+
+  
+  }
+  .studentMainTitle{
+    font-family: 'Open+Sans', "Harlow Solid Italic";
+    font-size:90px;
+    position:absolute;
+    z-index:0;
+    font-weight: 300;
+    color:#C8A97E;
+    margin-left:35%;
+  }
+  .studentSubTitle{
+    font-family:'Montserreat',sans-serif;
+    font-size:60px;
+    position:absolute;
+    top:55px;
+    z-index:1;
+    font-weight: 600;
+    margin-left:30%;
+  }
+  .circleImg {
+    margin: 0 auto;
+  
+    width: 130px;
+    height: 130px;
+   
+    border-radius: 50%;
+  }
+  .circleImg:hover{
+    cursor: pointer;
+  
+  }
+  .circleIcon{
+  
+  
+  }
+  .studentName{
+    margin-top: 1rem;
+    font-family: 'Montserreat',sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .studentTitle {
+    color: #CCCCCC !important;
+    font-family: 'Montserreat',sans-serif;
+    font-size:16px;
+    font-weight:200;
+  }
+  .studentDescription{
+    color: #7F7E7E;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding:6px ;
+    margin-top: 1rem;
+  
+  
+  }
+
+
+
+.CourseCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 4px ;
+    box-shadow: 0 0 4px 0 rgb(24, 161, 193);
+}
+.CourseCard:hover{
+    box-shadow: 0 0 8px 0 rgb(24, 161, 193);
+    background: rgba(88, 218, 247, 0.5);
+
+}
+.CoursetImg{
+    height: 12rem !important;
+
+}
+.CourseImg:hover{
+    cursor: pointer;
+
+}
+.CourseCardTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.CourseLink{
+    color: #fff;
+    padding:10px;
+    display:inline-block;
+    width:150px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background:#18A1C1;
+    text-align: center;
+
+}
+.CourseLink:hover{
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+
+.WorkCard{
+    border-radius: 2px;
+    border: none !important;
+    margin: 4px ;
+    box-shadow: 0 0 4px 0 rgb(24, 161, 193);
+}
+
+.WorkLink{
+    color: #181717;
+    padding:10px;
+    display:inline-block;
+    width:200px;
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background:#18A1C1;
+    text-align: center;
+
+}
+.WorkLink:hover{
+    text-decoration: none;
+    background-color: #fff;
+    display: inline-block;
+    color:#000!important;
+    border: 2px solid rgba(24, 161, 193);
+    opacity: 0.8;
+    border-radius:2px ;
+    cursor: pointer;
+    transition:2s;
+
+}
+
+
+
+.playBtn{
+    color: #18A1C1;
+    font-size: 48px;
+    cursor: pointer;
+ 
+}
+.playBtn:hover{
+    color: #18A1C1;
+    font-size: 48px;
+    cursor: pointer;
+    display:inline-block;
+    
+}
+.CourseReviewImg{
+    height: 14rem !important;
+    background: rgba(88, 218, 247, 0.5);
+    width: 100%;
+    
+
+}
+.CourseReviewImg:hover{
+    cursor: pointer;
+
+}
+.courseTeacher{
+    text-align: justify;
+}
+
+.form-control[type='text']{
+    height: 50px;
+ 
+    border-radius: 2px ;
+}
+.form-control[type='email']{
+    height: 50px;
+
+    border-radius: 2px;
+}
+.form-control[type='text']:focus{
+   
+
+    border-radius: 10px ;
+    box-shadow: 1px  rgb(24, 161, 193) !important;
+}
+.form-control[type='email']:focus{
+
+    border-radius: 10px  ;
+    box-shadow: 1px  rgb(24, 161, 193) !important;
+}
+
+
+.btn-contact{
+    width:100%;
+  
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 10px;
+    top: 20px;
+    background-color: rgba(00,00,00,0.0) !important;
+
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #2c2f32;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #18A1C1;
+
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background:#18A1C1;;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: absolute;
+    height: 100%;
+    
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #12141e;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill:#12141e;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad !important;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+    color: #fff!important;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .bm-item:hover {
+    display: inline-block;
+  
+
+  }
+
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
